@@ -13,6 +13,8 @@ class MainWindow(QtGui.QWidget):
         self.init_ui()
 
     def init_ui(self):
+        display = QtGui.QLineEdit()
+        self = QtGui.QLabel()
 
 
         igual = QtGui.QPushButton('=')
@@ -30,4 +32,23 @@ class MainWindow(QtGui.QWidget):
         nueve = QtGui.QPushButton('9')
         cero = QtGui.QPushButton('0')
         derecha = QtGui.QPushButton('>')
-        izquierda = QtGui.QPushButton('<')
+        izquierda = QtGui.QPushButton('←')
+        arriba = QtGui.QPushButton('↑')
+        abajo = QtGui.QPushButton('↓')
+        raiz = QtGui.QPushButton('√')
+        ans = QtGui.QPushButton('Ans')
+        porcentaje = QtGui.QPushButton('%')
+        exponenteDiez = QtGui.QPushButton('x10ª')
+        parentesisIzquierdo = QtGui.QPushButton('(')
+        parentesisDerecho = QtGui.QPushButton(')')
+        cuadrado = QtGui.QPushButton('x²')
+        potencia = QtGui.QPushButton('xª')
+        factorial = QtGui.QPushButton('!')
+        yen = QtGui.QPushButton('¥')
+        libra = QtGui.QPushButton('£')
+        euro = QtGui.QPushButton('€')
+        peso = QtGui.QPushButton('$a')
+        dolar = QtGui.QPushButton('$')
+        bitCoin = QtGui.QPushButton('฿')
+        clear = QtGui.QPushButton('<')
+        clearAll = QtGui.QPushButton('<<')
